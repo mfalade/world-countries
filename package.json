@@ -1,0 +1,34 @@
+{
+  "name": "world-countries",
+  "version": "1.0.0",
+  "description": "A helper for world countries",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfalade/world-countries.git"
+  },
+  "keywords": [
+    "world",
+    "countries",
+    "country",
+    "names",
+    "ISO",
+    "ALPHA-2",
+    "ISO",
+    "ALPHA-3",
+    "coutries",
+    "names",
+    "world",
+    "countries"
+  ],
+  "author": "mfalade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfalade/world-countries/issues"
+  },
+  "homepage": "https://github.com/mfalade/world-countries#readme"
+}
