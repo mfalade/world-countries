@@ -1,7 +1,6 @@
 'use strict';
 
 var countries = require('./data');
-console.log(countries.length, '....length ..')
 
 // Define mappings
 var namesMapping = {};
@@ -34,11 +33,8 @@ function normalizeString(str) {
 
 function normalizeCountryCodeFormat(preferredFormat) {
   var format = (normalizeString(preferredFormat) || 'alpha2') + 'Code';
-  if (format === 'alpha2Code' || format === 'alpha3Code') {
-    return format;
-  }
 
-  return 'alpha2Code';
+  return format === 'alpha3Code' ? format : 'alpha2Code';
 }
 
 function getCountryCode(countryName, preferredFormat) {
